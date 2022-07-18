@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "modules": false,
+        "useBuiltIns": "usage",
+        "corejs": 3.16,
+        "targets": "> 0.25%, not dead",
+        "forceAllTransforms": true
+      }
+    ]
+  ]
+}

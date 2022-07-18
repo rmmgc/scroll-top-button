@@ -1,0 +1,53 @@
+.scroll-to-top-button__container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.scroll-to-top-button__button {
+  /* Button style resets */
+  border: none;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  cursor: pointer;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #456990;
+}
+
+.scroll-to-top-button__icon-wrapper {
+  height: 34px;
+  background-color: #3d5d7f;
+  width: 34px;
+  border-radius: 50%;
+}
+
+.scroll-to-top-button__icon-wrapper svg {
+  margin-top: 5px;
+  stroke: #ffffff;
+  stroke-width: 2;
+  width: 24px;
+  height: 24px;
+}
+
+.scroll-to-top-button__icon-wrapper img {
+  margin-top: 5px;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+}
